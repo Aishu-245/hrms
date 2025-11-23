@@ -6,8 +6,12 @@ A modern, full-stack Human Resource Management System built with React, Node.js,
 
 ## 🌐 Live Demo
 
-- **Application URL**: [Deployed on Railway](#) _(Will be updated after Railway deployment)_
+- **Application URL**: [https://hrms-production-875d.up.railway.app](https://hrms-production-875d.up.railway.app)
 - **GitHub Repository**: [View Source Code](https://github.com/Aishu-245/hrms)
+
+**Demo Credentials:**
+- Email: `admin@acme.com`
+- Password: `admin123`
 
 ## 🚀 Features
 
