@@ -1,0 +1,31 @@
+{
+  "name": "hrms",
+  "version": "1.0.0",
+  "description": "Human Resource Management System - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && node src/index.js",
+    "start:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "init:db": "cd backend && node src/scripts/initDb.js",
+    "build": "npm run build:frontend",
+    "start": "npm run start:backend"
+  },
+  "keywords": [
+    "hrms",
+    "human-resource",
+    "management",
+    "react",
+    "nodejs",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
